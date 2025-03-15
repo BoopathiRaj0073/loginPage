@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Login & Registration</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sign In Form -->
+        <div class="form-wrapper sign-in">
+            <form action="">
+                <h2>Login</h2>
+
+                <!-- Username input group -->
+                <div class="input-group">
+                    <input type="text" id="username-signin" required>
+                    <label for="username-signin">Username</label>
+                </div>
+
+                <!-- Password input group -->
+                <div class="input-group">
+                    <input type="password" id="password-signin" required>
+                    <label for="password-signin">Password</label>
+                </div>
+
+                <!-- Remember me checkbox -->
+                <div class="remember">
+                    <label for=""><input type="checkbox"> Remember me</label>
+                </div>
+
+                <!-- Submit button -->
+                <button type="submit">Login</button>
+
+                <!-- Sign up link -->
+                <div class="signUp-link">
+                    <p>Don't have an account? <a href="#" class="signUpBtn-link">Sign up</a></p>
+                </div>
+            </form>
+        </div>
+
+        <!-- Sign Up Form -->
+        <div class="form-wrapper sign-up">
+            <form action="">
+                <h2>Sign Up</h2>
+
+                <!-- Username input group -->
+                <div class="input-group">
+                    <input type="text" id="username-signup" required>
+                    <label for="username-signup">Username</label>
+                </div>
+
+                <!-- Email input group -->
+                <div class="input-group">
+                    <input type="email" id="email-signup" required>
+                    <label for="email-signup">Email</label>
+                </div>
+
+                <!-- Password input group -->
+                <div class="input-group">
+                    <input type="password" id="password-signup" required>
+                    <label for="password-signup">Password</label>
+                </div>
+
+                <!-- Agree to terms checkbox -->
+                <div class="remember">
+                    <label for=""><input type="checkbox"> I agree to the terms & conditions</label>
+                </div>
+
+                <!-- Submit button -->
+                <button type="submit">Sign Up</button>
+
+                <!-- Sign in link -->
+                <div class="signUp-link">
+                    <p>Already have an account? <a href="#" class="signInBtn-link">Sign In</a></p>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
